@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+  body {
+    background-color: #020617;
+    color: #f8fafc;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+@media print {
+  header, footer, #hero, #core-concept, #first-response, #sos-decision, #rescue-timeline, #dispatch-card, #comm-tools, #first-aid, #waiting-rescue, #leader-mgmt, #decision-tree, #rescue-collab, #scenario-training, #summary, button {
+    display: none !important;
+  }
+  #one-page-checklist {
+    display: block !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 0 !important;
+  }
+  #one-page-checklist * {
+    background: transparent !important;
+    color: #000000 !important;
+    border-color: #cbd5e1 !important;
+    box-shadow: none !important;
+  }
+}
