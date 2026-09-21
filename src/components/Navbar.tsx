@@ -33,12 +33,9 @@ export const Navbar: React.FC<NavbarProps> = () => {
             <div className="w-9 h-9 rounded-lg bg-sky-500/20 border border-sky-400/40 flex items-center justify-center text-sky-400">
               <Shield className="w-5 h-5" />
             </div>
-            <div>
-              <span className="font-bold text-sm sm:text-base tracking-wide block leading-tight">
-                亞馬遜國家山岳協會
-              </span>
-              <span className="text-xs text-sky-400 font-medium">第十章：求援與應變</span>
-            </div>
+            <span className="font-bold text-sm sm:text-base tracking-wide block leading-tight">
+              亞馬遜國家山岳協會
+            </span>
           </a>
 
           {/* Desktop Nav Items */}

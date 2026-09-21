@@ -1,7 +1,7 @@
 import React from 'react';
 import { chapterMeta } from '../data/chapter10.ts';
 import { MountainHeroSvg } from './svg/MountainHeroSvg.tsx';
-import { ArrowDownRight, Compass, ShieldAlert, CheckCircle2 } from 'lucide-react';
+import { ArrowDownRight, ShieldAlert, CheckCircle2 } from 'lucide-react';
 
 export const HeroSection: React.FC = () => {
   return (
@@ -13,14 +13,14 @@ export const HeroSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Left Column: Typography & CTAs */}
           <div className="lg:col-span-7 space-y-6 text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-sky-950/60 border border-sky-500/30 text-sky-400 text-xs sm:text-sm font-semibold tracking-wide">
-              <Compass className="w-4 h-4" />
-              <span>{chapterMeta.association}｜{chapterMeta.chapterNumber}：{chapterMeta.chapterTitle}</span>
+            <div className="space-y-3">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-100 tracking-tight leading-tight">
+                求援與應變
+              </h1>
+              <p className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-200 tracking-tight leading-snug">
+                {chapterMeta.heroHeadline}
+              </p>
             </div>
-
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-100 tracking-tight leading-tight">
-              {chapterMeta.heroHeadline}
-            </h1>
 
             <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl">
               {chapterMeta.heroSubline}
