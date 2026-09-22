@@ -14,6 +14,9 @@ export const HeroSection: React.FC = () => {
           {/* Left Column: Typography & CTAs */}
           <div className="lg:col-span-7 space-y-6 text-left">
             <div className="space-y-3">
+              <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-slate-900 border border-slate-800 text-slate-400 text-xs font-medium tracking-wide">
+                <span>{chapterMeta.chapterNumber}</span>
+              </div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-100 tracking-tight leading-tight">
                 登山求援與應變
               </h1>

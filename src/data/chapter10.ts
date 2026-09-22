@@ -13,7 +13,7 @@ import {
 
 export const chapterMeta: ChapterInfo = {
   association: '亞馬遜國家山岳協會',
-  chapterNumber: '第十項',
+  chapterNumber: '第十章',
   chapterTitle: '求援與應變',
   heroHeadline: '正確應變，是等待救援前最重要的能力',
   heroSubline: '教導事故發生後如何正確處理，提高生存機率。正確求援，可以讓救援更快到達。',
