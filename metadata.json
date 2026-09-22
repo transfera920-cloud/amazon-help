@@ -1,6 +1,6 @@
 {
-  "name": "登山求援與應變｜登山安全教育第十章｜亞馬遜國家山岳協會",
-  "description": "亞馬遜國家山岳協會登山安全教育知識平台第十章：求援與應變。涵蓋山域事故現場評估、SOS求救決策、10項求援通報要點、通訊工具比較、野外急救與防失溫、等待救援應變與領隊事故管理。",
+  "name": "登山求援與應變｜山域事故、緊急處置與求援方法",
+  "description": "了解登山求援與應變，認識山域事故的基本處理、緊急處置與求援方法，建立登山遇到突發狀況時的應變能力。",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

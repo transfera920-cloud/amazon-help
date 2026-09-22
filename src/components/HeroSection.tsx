@@ -15,7 +15,7 @@ export const HeroSection: React.FC = () => {
           <div className="lg:col-span-7 space-y-6 text-left">
             <div className="space-y-3">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-100 tracking-tight leading-tight">
-                求援與應變
+                登山求援與應變
               </h1>
               <p className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-200 tracking-tight leading-snug">
                 {chapterMeta.heroHeadline}
